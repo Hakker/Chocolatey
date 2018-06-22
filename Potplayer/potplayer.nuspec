@@ -25,6 +25,6 @@ PotPlayer has several features, including, but not limited to:
     <releaseNotes />
     <copyright />
     <tags>media player video MKV OGM MP4 MOV 3GP AVI freeware</tags>
-    <packageSourceUrl>https://github.com/Hakker/Chocolatey</packageSourceUrl>
+    <packageSourceUrl>https://github.com/Hakker/Chocolatey/tree/master/Potplayer</packageSourceUrl>
   </metadata>
 </package>
