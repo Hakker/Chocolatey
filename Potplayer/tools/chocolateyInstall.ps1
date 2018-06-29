@@ -5,11 +5,11 @@ $packageName = 'potplayer'
 $packageArgs = @{
     packageName    = $packageName
     fileType       = 'exe'       
-    url            = 'http://get.daum.net/PotPlayer/Version/Latest/PotPlayerSetup.exe'
-    url64bit       = 'http://get.daum.net/PotPlayer64/Version/Latest/PotPlayerSetup64.exe'   
-    checksum       = '730876011A9DF49447C5FC37A5644BCE9711F3CBFE45786D3C338766F9D47DD3'
+    url            = 'http://t1.daumcdn.net/potplayer/PotPlayer/Version/20180629_1.7.12845/PotPlayerSetup.exe'
+    url64bit       = 'http://t1.daumcdn.net/potplayer/PotPlayer/Version/20180629_1.7.12845/PotPlayerSetup64.exe'   
+    checksum       = 'FDA74C68CE34645A442DE408F6D73A92C9254CB8E2453E26EC4876A7C725AEC3'
     checksumType   = 'sha256'
-    checksum64     = '1A80AE3E4006B5F6AFE95C112CA9D531F87012E2F6E27B2408BB62FF3E825D85'
+    checksum64     = '2416554BBDBEF45B977FE05D6D25F4E7B5A39D50B50A635D2051C70ADCDE0291'
     checksumType64 = 'sha256'    
     silentArgs     = '/S'
 	validExitCodes = @(0);
@@ -17,5 +17,4 @@ $packageArgs = @{
 
 echo "If an older version of PotPlayer is running on this machine, it will be closed prior to the installation of the newer version."
 ps potplayer -ea 0| kill
-
 Install-ChocolateyPackage @packageArgs

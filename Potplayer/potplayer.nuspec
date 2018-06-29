@@ -2,7 +2,7 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
   <metadata>
     <id>potplayer</id>
-    <version>1.7.12844</version>
+    <version>1.7.12845</version>
     <title>PotPlayer</title>
     <authors>Daum Communications</authors>
     <owners>Hakker</owners>
