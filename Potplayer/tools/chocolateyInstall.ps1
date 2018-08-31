@@ -17,4 +17,5 @@ $packageArgs = @{
 
 echo "If an older version of PotPlayer is running on this machine, it will be closed prior to the installation of the newer version."
 ps potplayer -ea 0| kill
+
 Install-ChocolateyPackage @packageArgs
