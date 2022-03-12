@@ -2,7 +2,7 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
   <metadata>
     <id>potplayer</id>
-    <version>21.11.18</version>
+    <version>22.03.02</version>
     <title>PotPlayer</title>
     <authors>Daum Communications</authors>
     <owners>Hakker</owners>
@@ -22,7 +22,7 @@ PotPlayer has several features, including, but not limited to:
 * Video filters, like deinterlacing, video post-processing and noise reduction for customized playback
 * Audio equalizer and lets users adjust the brightness, contrast and hue of the video</description>
     <summary>PotPlayer is a media player developed for Windows by Daum Communications.</summary>
-    <releaseNotes />
+    <releaseNotes>https://t1.daumcdn.net/potplayer/PotPlayer/v4/Update2/UpdateEng.html</releaseNotes>
     <copyright />
     <tags>media player video MKV OGM MP4 MOV 3GP AVI AV1 freeware</tags>
     <packageSourceUrl>https://github.com/Hakker/Chocolatey/tree/master/Potplayer</packageSourceUrl>

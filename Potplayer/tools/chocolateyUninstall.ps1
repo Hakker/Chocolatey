@@ -9,9 +9,7 @@ try {
 	}
 	$file = (Get-ItemProperty -Path $hklm).UninstallString;
 	Uninstall-ChocolateyPackage -PackageName $packageName -FileType $installerType -silentArgs $silentArgs -File $file;
-  
-	Write-ChocolateySuccess $packageName;
 } catch {
-	Write-ChocolateyFailure $packageName "$($_.Exception.Message)";
+	Write-Warning $packageName "$($_.Exception.Message)";
 	throw;
 }
